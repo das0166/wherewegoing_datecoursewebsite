@@ -89,8 +89,59 @@ header nav .gnb>li>a{
     height: 100%;
     display: block;
 }
+.city_select{
+    float: left;
+    margin-left: 425px;
+    height: 45px;
+    margin-top: 21px;
 
+}
+.select-box{
+    position: relative;
+    float: left;
+    width: 130px;
+    height: 40px;
+    border: 2px solid #6167B2;
+    margin-right: 10px;
+}
+.map{
+    width: 100%;
+    height: 500px;
+    margin-top: 90px;
+}
+.map>div{
+    width: 500px;
+    height: 500px;
+    background: #dcdcdc;
 
+    margin: 0 auto;
+}
+.course-select-box{
+    width: 100%;
+    height: 90px;
+    margin-top: 30px;
+    border: 2px solid #6167B2;
+}
+.select-box .province-select, .select-box .city-select, .select-box .area-select{
+    width: inherit;
+    height: inherit;
+    background: transparent;
+    border: 0 none;
+    outline: 0 none;
+    padding: 0 5px;
+    position: relative;
+    z-index: 3;
+    font-size: 15px;
+    font-weight: bold;
+    color: #6167B2;
+    text-align: center;
+  }
+  .select-box .province-select option, .select-box .city-select option, .select-box .area-select option{
+    background: #6167B2;
+    color: #fff;
+    padding: 5px 0;
+    font-size: 15px;
+  }
 
 
 
