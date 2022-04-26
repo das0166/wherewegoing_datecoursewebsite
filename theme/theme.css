@@ -75,6 +75,57 @@ header nav .gnb>li>a{
     display: block;
 }
 
+.contents{
+    width: 1260px;
+    margin: 0 auto;
+}
+.contents h2{
+    font-size: 20px;
+    text-align: center;
+}
+.contents h2 img{
+    height: 18px;
+    margin-right: 5px;
+}
+.contents>p{
+    color: #707070;
+    margin: 20px;
+}
+.city_select{
+    float: left;
+    margin-left: 425px;
+    height: 45px;
+    margin-top: 21px;
+
+}
+.select-box{
+    position: relative;
+    float: left;
+    width: 130px;
+    height: 40px;
+    border: 2px solid #6167B2;
+    margin-right: 10px;
+}
+.select-box .province-select, .select-box .city-select, .select-box .area-select{
+    width: inherit;
+    height: inherit;
+    background: transparent;
+    border: 0 none;
+    outline: 0 none;
+    padding: 0 5px;
+    position: relative;
+    z-index: 3;
+    font-size: 15px;
+    font-weight: bold;
+    color: #6167B2;
+    text-align: center;
+  }
+  .select-box .province-select option, .select-box .city-select option, .select-box .area-select option{
+    background: #6167B2;
+    color: #fff;
+    padding: 5px 0;
+    font-size: 15px;
+  }
 
 
 
