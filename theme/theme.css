@@ -119,15 +119,67 @@ header nav .gnb>li>a{
     font-weight: bold;
     color: #6167B2;
     text-align: center;
-  }
-  .select-box .province-select option, .select-box .city-select option, .select-box .area-select option{
+}
+.select-box .province-select option, .select-box .city-select option, .select-box .area-select option{
     background: #6167B2;
     color: #fff;
     padding: 5px 0;
     font-size: 15px;
-  }
-
-
+}
+.recommend{
+    position: relative;
+    margin-top: 118px;
+    height: 513px;
+}
+.recommend h2{
+    position: absolute;
+    left: 20px;
+}
+.recommend ul{
+    margin-top: 40px;
+}
+.recommend ul li{
+    width: 620px;
+    height: 340px;
+    float: left;
+    position: relative;
+}
+.recommend ul li.course3{
+    margin-right: 20px;
+}
+.recommend ul li div{
+    width: 620px;
+    height: 340px;
+    position: absolute;
+    float: right;
+    background: rgba(255,255,255,.07);
+    top: 0;
+    right: 0;
+}
+.recommend ul li.course4 div{
+    width: 620px;
+    height: 340px;
+    position: absolute;
+    float: right;
+    background: rgba(0,0,0,0.09);
+    top: 0;
+    right: 0;
+}
+.recommend ul li h3{
+    font-size: 30px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: #fff;
+    text-align: right;
+}
+.recommend ul li p{
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    top: 117px;
+    right: 30px;
+}
 
 
 footer{
