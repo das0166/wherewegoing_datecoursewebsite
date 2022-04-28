@@ -78,89 +78,66 @@ header nav .gnb>li>a{
     height: 100%;
     display: block;
 }
+
 .contents{
-    width: 100%;
-
-}
-.slide{
-    width: 100%;
-    height: 650px;
-    position: relative;
-}
-.slide ul,.slide ul>li{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.slide img{
-    width: 1895px;
-}
-.container{
-    margin: 0 auto;
     width: 1260px;
+    margin: 0 auto;
 }
-
-.Top{
-    margin-top: 150px;
-    height: 513px;
-}
-.Top h2{
+.contents h2{
     font-size: 20px;
+    text-align: center;
 }
-.Top ul{
-    margin-top: 40px;
-}
-.Top ul>li{
-    width: 320px;
-    height: 440px;
-    border: 1px solid #707070;
-    float: left;
-}
-.Top ul>li.box1,.Top ul>li.box2{
-    margin-right: 144px;
-}
-.Top ul>li>img{
-    width: 300px;
-    height: 300px;
-    margin: 10px;
-}
-.Top ul>li .icon{
-    margin: 0 10px;
-}
-.Top ul>li .icon img{
-    width: 20px;
-    height: 20px;
+.contents h2 img{
+    height: 18px;
     margin-right: 5px;
 }
-.Top ul>li .icon img:nth-child(4){
-    margin-right: 0;
-    float: right;
+.contents>p{
+    color: #707070;
+    margin: 20px;
 }
-.Top ul>li p{
-    font-size: 18px;
-    margin: 15px 10px;
+.city_select{
+    float: left;
+    margin-left: 425px;
+    height: 45px;
+    margin-top: 21px;
+
+}
+.select-box{
+    position: relative;
+    float: left;
+    width: 130px;
+    height: 40px;
+    border: 2px solid #6167B2;
+    margin-right: 10px;
+}
+.select-box .province-select, .select-box .city-select, .select-box .area-select{
+    width: inherit;
+    height: inherit;
+    background: transparent;
+    border: 0 none;
+    outline: 0 none;
+    padding: 0 5px;
+    position: relative;
+    z-index: 3;
+    font-size: 15px;
+    font-weight: bold;
+    color: #6167B2;
+    text-align: center;
+}
+.select-box .province-select option, .select-box .city-select option, .select-box .area-select option{
+    background: #6167B2;
+    color: #fff;
+    padding: 5px 0;
+    font-size: 15px;
 }
 .recommend{
-    margin-top: 150px;
-    height: 415px;
+    position: relative;
+    margin-top: 118px;
+    height: 513px;
 }
-.recommend .tit{
-    height: 30px;
-}
-.recommend .tit h2{
-    font-size: 20px;
-    width: 150px;
-    float: left;
-}
-.recommend .tit a{
-    float: right;
-    color: #6167B2;
-}
-.recommend .tit a img{
-    width: 13px;
-    height: 13px;
+.recommend h2{
+    position: absolute;
+    left: 20px;
 }
 .recommend ul{
     margin-top: 40px;
@@ -171,7 +148,7 @@ header nav .gnb>li>a{
     float: left;
     position: relative;
 }
-.recommend ul li.course1{
+.recommend ul li.course3{
     margin-right: 20px;
 }
 .recommend ul li div{
@@ -180,6 +157,15 @@ header nav .gnb>li>a{
     position: absolute;
     float: right;
     background: rgba(255,255,255,.07);
+    top: 0;
+    right: 0;
+}
+.recommend ul li.course4 div{
+    width: 620px;
+    height: 340px;
+    position: absolute;
+    float: right;
+    background: rgba(0,0,0,0.09);
     top: 0;
     right: 0;
 }
@@ -198,6 +184,8 @@ header nav .gnb>li>a{
     top: 117px;
     right: 30px;
 }
+
+
 footer{
     width: 100%;
     height: 172px;
