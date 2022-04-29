@@ -139,12 +139,11 @@ header nav .gnb>li>a{
     position: absolute;
     left: 20px;
 }
-.recommend ul{
-    margin-top: 40px;
-}
+
 .recommend ul li{
     width: 620px;
     height: 340px;
+    margin-top: 60px;
     float: left;
     position: relative;
 }
