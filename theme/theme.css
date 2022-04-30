@@ -211,7 +211,7 @@ header nav .gnb>li>a{
     right: 57px;
     top: 76px;
  }
- .theme .theme_list>div:nth-child(2){
+ .theme .theme_list>div:nth-child(3){
     margin-left: 125px;
 }
 .theme .theme_list>div{
@@ -221,7 +221,10 @@ header nav .gnb>li>a{
    margin-right: 50px;
    float: left;
 }
-.theme .theme_list>div:nth-child(10){
+.theme .theme_list>div.on{
+    font-weight: bold;
+}
+.theme .theme_list>div:nth-child(15){
     margin-right: 0;
 }
 .theme .theme_list>div>div{
@@ -352,12 +355,11 @@ header nav .gnb>li>a{
     font-weight: bold;
     margin-bottom: 3px;
 }
-.theme .theme_list ul li .data p.kind{
-    position: absolute;
-    top: 7px;
-    left: 297px;
-    font-size: 13px;
+.theme .theme_list ul li .data h4 span.kind{
     color: #3E3E3E;
+    font-size: 13px;
+    margin-left: 10px;
+    font-weight: normal;
 }
 .theme .theme_list ul li .data p.location{
     position: absolute;
