@@ -193,7 +193,7 @@ header nav .gnb>li>a{
     margin-left: 20px;
 }
 .theme .theme_list{
-    height: 1124px;
+    height: 1140px;
     border: 1px solid #707070;
     margin-top: 15px;
     position: relative;
@@ -221,7 +221,7 @@ header nav .gnb>li>a{
    margin-right: 50px;
    float: left;
 }
-.theme .theme_list>div:nth-child(8){
+.theme .theme_list>div:nth-child(10){
     margin-right: 0;
 }
 .theme .theme_list>div>div{
@@ -286,6 +286,9 @@ header nav .gnb>li>a{
     position: absolute;
     top: 170px;
     width: 100%;
+    height: 0;
+    margin-top: 0;
+    margin-right: 0;
 }
 .theme .theme_list .choice{
     width: 130px;
@@ -302,6 +305,86 @@ header nav .gnb>li>a{
 .theme .theme_list .choice option{
     background: #6167B2;
     color: #fff;
+}
+.theme .theme_list ul.on{
+    display: block;
+}
+.theme .theme_list ul{
+    position: absolute;
+    top: 215px;
+    left: 130px;
+    display: none;
+}
+.theme .theme_list ul h3{
+    font-size: 30px;
+    margin-top: 25px;
+    text-align: center;
+    font-weight: normal;
+}
+.theme .theme_list ul li:nth-child(2){
+    margin-top: 80px;
+}
+.theme .theme_list ul li{
+    width: 1000px;
+    height: 200px;
+    border: 1px solid #6167B2;
+    margin-bottom: 50px;
+}
+.theme .theme_list ul li a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.theme .theme_list ul li .all_img{
+    width: 160px;
+    height: 160px;
+    background: #C7C7C7;
+    float: left;
+    margin: 20px 15px 20px 20px;
+}
+.theme .theme_list ul li .data{
+    height: 160px;
+    top: 20px;
+    position: relative;
+}
+.theme .theme_list ul li .data h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.theme .theme_list ul li .data p.kind{
+    position: absolute;
+    top: 7px;
+    left: 297px;
+    font-size: 13px;
+    color: #3E3E3E;
+}
+.theme .theme_list ul li .data p.location{
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 0;
+    bottom: 0;
+
+}
+.theme .theme_list ul li .data p{
+    font-size: 15px;
+    color: #707070;
+    margin-bottom: 10px;
+}
+.theme .theme_list ul li .data p.reservation{
+    color: #FF0000;
+}
+.theme .theme_list ul li .data p span{
+    font-size: 18px;
+    color: #3E3E3E;
+    margin-right : 10px;
+}
+.theme .theme_list ul li .data p .notice{
+    font-size: 10px;
+    color: #FF0000;
 }
 footer{
     width: 100%;
