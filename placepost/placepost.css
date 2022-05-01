@@ -78,8 +78,33 @@ header nav .gnb>li>a{
     height: 100%;
     display: block;
 }
-
-
+.contents{
+    width: 1260px;
+    margin: 0 auto;
+}
+.contents>p{
+    color: #707070;
+    margin: 20px;
+}
+.contents .place{
+    width: 1000px;
+    height: 1038px;
+    border: 1px solid #707070;
+    margin: 0 auto;
+    margin-top: 117px;
+}
+.contents .place h2{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+.contents .place h2 span.kind{
+    margin-left: 20px;
+    font-size: 10px;
+    font-weight: normal;
+    color: #3E3E3E;
+}
 
 
 
