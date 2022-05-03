@@ -105,7 +105,45 @@ header nav .gnb>li>a{
     font-weight: normal;
     color: #3E3E3E;
 }
-
+.contents .place .img{
+    margin-top: 40px;
+    margin-left: 305px;
+}
+.contents .place .img .main{
+    width: 386px;
+    height: 264px;
+    position: relative;
+}
+.contents .place .img .main .arrow, .contents .place .img .main .arrow-ri{
+    position: absolute;
+    top: 113px;
+    cursor: pointer;
+}
+.contents .place .img .main .arrow-ri{
+    right: 0;
+}
+.contents .place .img .main_em{
+    background: #707070;
+    width: 264px;
+    height: 264px;
+    margin-left: 68px;
+}
+.contents .place .img .em{
+    background: #707070;
+    width: 130px;
+    height: 130px;
+    float: left;
+    margin-top: 30px;
+}
+.contents .place .img .em:nth-child(2){
+    background: #6167B2;
+}
+.contents .place .img .em:nth-child(3){
+    background: red;
+}
+.contents .place .img .em:nth-child(4){
+    background: yellow;
+}
 
 
 
