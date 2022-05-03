@@ -106,8 +106,10 @@ header nav .gnb>li>a{
     color: #3E3E3E;
 }
 .contents .place .img{
-    margin-top: 40px;
-    margin-left: 305px;
+    padding-top: 40px;
+    margin: 0 auto;
+    width: 390px;
+    height: 424px;
 }
 .contents .place .img .main{
     width: 386px;
@@ -144,9 +146,46 @@ header nav .gnb>li>a{
 .contents .place .img .em:nth-child(4){
     background: yellow;
 }
-
-
-
+.contents .place .ex{
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 390px;
+    height: 118px;
+}
+.contents .place .ex h4{
+    margin-bottom: 20px;
+}
+.contents .place .ex h4:nth-child(3){
+    margin-bottom: 0;
+}
+.contents .place .ex h4 span.tit{
+    font-size: 18px;
+    color: #3E3E3E;
+}
+.contents .place .ex h4 span.tit_ex{
+    font-size: 15px;
+    color: #707070;
+    margin-left: 10px;
+    font-weight: normal;
+} 
+.contents .place .ex h4 span.im{
+    font-size: 10px;
+    color: #FF0000;
+    margin-left: 2px;
+    font-weight: normal;
+} 
+.contents .place .map{
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 260px;
+    height: 280px;
+}
+.contents .place .map .map_img{
+    width: 260px;
+    height: 260px;
+    background-color: #e4e4e4;
+    border: 1px solid #6167B2;
+}
 footer{
     width: 100%;
     height: 172px;
