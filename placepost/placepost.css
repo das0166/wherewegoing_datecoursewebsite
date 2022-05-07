@@ -195,6 +195,84 @@ header nav .gnb>li>a{
 .visit  p{
     font-size: 20px;
 }
+.visit .review{
+    margin-top: 20px;
+    position: relative;
+    width: 1171px;
+    height: 187px;
+}
+.visit .review .arrow{
+    position: absolute;
+    top: 100px;
+    width: 11px;
+    height: 18px;
+}
+.visit .review .arrow-le{
+    left: 48px;
+}
+.visit .review .arrow-ri{
+    right: 0;
+}
+.visit .review>div{
+    float: left;
+}
+.visit .review .review_1{
+    width: 450px;
+    height: 187px;
+    border: 1px solid #707070;
+    position: relative;
+    margin-left: 109px;
+}
+.visit .review .id{
+    font-size: 20px;
+    float: left;
+    margin-top: 19px;
+    margin-left: 45px;
+}
+.visit .review .star {
+    width: 115px;
+    float: left;
+    margin-top: 24px;
+    padding-left: 10px;
+}
+.visit .review .star img{
+    width: 20px;
+    height: 20px;
+
+}
+.visit .review .img{
+    width: 100px;
+    height: 100px;
+    background: #707070;
+    top: 69px;
+    position: absolute;
+    left: 45px;
+}
+.visit .review .review_1 .review_nae{
+    font-size: 15px;
+    position: absolute;
+    right: 45px;
+    height: 81px;
+    width: 220px;
+    top: 69px;
+    padding-top: 19px;
+}
+.visit .review .review_2{
+    width: 450px;
+    height: 187px;
+    border: 1px solid #707070;
+    position: relative;
+    margin-right: 50px;
+    margin-left: 100px;
+}
+.visit .review .review_2 .review_nae{
+    width: 229px;
+    font-size: 15px;
+    height: 42px;
+    position: absolute;
+    right: 111px;
+    top: 78px;
+}
 footer{
     width: 100%;
     height: 172px;
