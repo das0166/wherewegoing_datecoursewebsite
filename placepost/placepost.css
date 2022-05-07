@@ -189,7 +189,7 @@ header nav .gnb>li>a{
 .visit {
     margin: 0 auto;
     width: 1260px;
-    height: 260px;
+    height: 283px;
     padding-top: 30px;
 }
 .visit  p{
@@ -273,12 +273,122 @@ header nav .gnb>li>a{
     right: 111px;
     top: 78px;
 }
+.line{
+    width: 1260px;
+    border-top: 2px solid #B6B6B6;
+    margin: 0 auto;
+}
+.comment{
+    height: 570px;
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+.comment .ico_comment{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 50px;
+    float: left;
+}
+.comment .comment_gae{
+    float: left;
+    font-size: 18px;
+    color: #3E3E3E;
+    margin-left: 10px;
+    margin-top: 11px;
+}
+.comment .save{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    float: right;
+    margin-right: 50px;
+}
+.comment_full{
+    width: 900px;
+    height: 352px;
+    position: absolute;
+    top: 55px;
+    right: 100px;
+}
+.comment_full .more{
+    font-size: 15px;
+    color: #6167B2;
+    float: left;
+    font-weight: 500;
+}
+.comment_full .ico_more{
+    margin-left: 5px;
+}
+.comment_group{
+    margin-top: 20px;
+    width: 100%;
+    height: 91px;
+}
+.comment_group .nick{
+    font-size: 15px;
+    font-weight: 500;
+} 
+.comment_group .comment_shape{
+    background-color: #F9F9F9;
+    border-radius: 35px;
+    margin-top: 10px;
+    height: 60px;
+}
+.comment_group .comment_fir{
+    width: 303px;
+}
+.comment_group .comment_sec{
+    width: 200px;
+}
+.comment_group .comment_thir{
+    width: 351px;
+}
+.comment_group .comment_shape p{
+    padding-top: 18px;
+    padding-left: 30px;
+    font-size: 15px;
+}
+.comment_group .comment_shape p span.mention{
+    color: #6167B2;
+    font-weight: 500;
+}
+.comment_group .comment_shape p span.mention_nae{
+    margin-left: 5px;
+}
+input{
+    position: absolute;
+    width: 1080px;
+    height: 70px;
+    top: 437px;
+    left: 0;
+    padding-left: 20px;
+    font-size: 15px;
+}
+button{
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    top: 530px;
+    right: 0;
+    border:1px solid #B6B6B6;
+    border-radius: 14px;
+    background: #fff;
+    color: #6167B2;
+    font-size: 15px;
+    font-weight: bold;
+}
+button:hover{
+    background: #6167B2;
+    color: #fff;
+}
 footer{
     width: 100%;
     height: 172px;
     background-color: #C7C7C7;
     position: relative;
-    margin-top: 130px;
+    margin-top: 30px;
 }
 footer h1{
     position: absolute;
