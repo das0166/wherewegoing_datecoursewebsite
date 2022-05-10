@@ -192,11 +192,20 @@ header nav .gnb>li>a{
     height: 283px;
     padding-top: 30px;
 }
-.visit  p{
+.visit>p{
     font-size: 20px;
+    float: left;
+}
+.visit  p.more{
+    font-size: 13px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 7px;
+    color: #6167B2;
+    cursor: pointer;
 }
 .visit .review{
-    margin-top: 20px;
+    margin-top: 40px;
     position: relative;
     width: 1171px;
     height: 187px;
