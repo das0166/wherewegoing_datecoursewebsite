@@ -78,9 +78,76 @@ header nav .gnb>li>a{
     height: 100%;
     display: block;
 }
+.contents{
+    width: 1260px;
+    margin: 0 auto;
+}
+.contents>p{
+    color: #707070;
+    margin: 20px 0 16px 20px;
+}
+.contents>h2{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 57px;
+}
+.review_all .review{
+    margin-bottom: 30px;
+}
+.review_all .review_1{
+    width: 100%;
+    height: 187px;
+    border: 1px solid #707070;
+    position: relative;
+}
+.review_all .review .id{
+    font-size: 20px;
+    float: left;
+    margin-top: 19px;
+    margin-left: 45px;
+}
+.review_all .review .star {
+    width: 115px;
+    float: left;
+    margin-top: 24px;
+    padding-left: 10px;
+}
+.review_all .review .star img{
+    width: 20px;
+    height: 20px;
 
+}
+.review_all .review_1 .img{
+    width: 100px;
+    height: 100px;
+    background: #707070;
+    top: 69px;
+    position: absolute;
+    left: 45px;
+}
+.review_all .review_1 .review_nae{
+    font-size: 16px;
+    position: absolute;
+    left: 155px;
+    height: 100px;
+    width: calc(100% - 200px);
+    top: 69px;
+}
+.review_all .review_2{
+    width: 100%;
+    height: 187px;
+    border: 1px solid #707070;
+    position: relative;
 
-
+}
+.review_all .review_2 .review_nae{
+    width: calc(100% - 90px);
+    font-size: 16px;
+    height: 100px;
+    position: absolute;
+    left: 45px;
+    top: 69px;
+}
 
 
 footer{
