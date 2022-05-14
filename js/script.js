@@ -10,7 +10,7 @@ $(document).ready( function() {
         $(this).addClass("on");
         $(this).next("ul").addClass("on");
     });
-    $(".review_all .review").eq(0).click(function(){
+    $(".review_all .review").click(function(){
         $(".modal").fadeIn();
     });
     $(".btn").click(function(){
