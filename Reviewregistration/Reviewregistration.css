@@ -110,6 +110,25 @@ header nav .gnb>li>a{
     margin-top: 20px;
     margin-left: 66px;
 }
+.review .place input{
+    height: 30px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: none;
+    color: #3E3E3E;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.review .place input.jibun{
+    width: 100px;
+    margin-left: 30px;  
+}
+.review .place input.add{
+    width: 500px;
+}
+.review .place input.detail{
+    width: 330px;
+}
 .review .place img{
     width: 31px;
     height: 31px;
@@ -149,6 +168,7 @@ header nav .gnb>li>a{
     padding: 20px 66px;
     font-family: 'Noto Sans KR', sans-serif;
     border: none;
+    resize: none;
 }
 .review .pic{
     width: 200px;

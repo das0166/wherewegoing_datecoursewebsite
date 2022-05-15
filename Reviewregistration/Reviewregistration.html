@@ -37,7 +37,10 @@
         <div class="review">
             <div class="place">
                 <p>장소 찾기</p>
-                <img src="../img/search.png" alt="search">
+                <input class="jibun" id="member_post"  type="text" readonly>
+                <input class="add" id="member_addr" type="text" readonly>
+                <input class="detail" type="text" id="detailAddress" placeholder="검색 후 상세주소를 입력해주세요.">
+                <img src="../img/search.png" alt="search" onclick="findAddr()">
             </div>
             <div class="check">
                 <p>얼마나 만족하셨나요?</p>
@@ -58,8 +61,8 @@
                     <img  src="../img/plus.png" alt="plus">
                 </div>
             </div>
-            <button class="cancel">취소하기</button>
-            <button class="registration">등록하기</button>
+            <button class="cancel"><a href="#">취소하기</a></button>
+            <button class="registration"><a onclick="alert('등록되었습니다.');" href="#">등록하기</a></button>
         </div>
     </div>
     <footer>
@@ -77,4 +80,25 @@
         <p>ⓒ 어디갈까? ALL RIGHTS RESERVED</p>
     </footer>   
 </body>
+<script>
+    function findAddr(){
+        new daum.Postcode({
+            oncomplete: function(data) {
+                console.log(data);
+                // 내려오는 변수가 값이 없는 경우엔 공백('')값을 가지므로, 이를 참고하여 분기 한다.
+                var roadAddr = data.roadAddress; // 도로명 주소 변수
+                var jibunAddr = data.jibunAddress; // 지번 주소 변수
+                // 우편번호와 주소 정보를 해당 필드에 넣는다.
+                document.getElementById('member_post').value = data.zonecode;
+                if(roadAddr !== ''){
+                    document.getElementById("member_addr").value = roadAddr;
+                } 
+                else if(jibunAddr !== ''){
+                    document.getElementById("member_addr").value = jibunAddr;
+                }
+            }
+        }).open();
+    }
+    </script>
+    <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
 </html>
