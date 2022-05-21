@@ -100,6 +100,29 @@ header nav .gnb>li>a{
     margin-top: 21px;
 
 }
+.search{
+    float: right;
+    position: relative;
+    margin-top: 21px;
+    
+}
+.search input{
+    height: 30px;
+    width: 200px;
+    padding: 5px 46px 5px 20px;
+    font-size: 15px;
+    border: 2px solid #6167B2;
+    border-radius: 30px;
+}
+.search img{
+    width: 25px;
+    right: 16px;
+    margin: 0;
+    position: absolute;
+    height: 25px;
+    top: 10px;
+    cursor: pointer;
+}
 .select-box{
     position: relative;
     float: left;
