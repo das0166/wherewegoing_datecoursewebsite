@@ -16,5 +16,11 @@ $(document).ready( function() {
     $(".btn").click(function(){
         $(".modal").fadeOut();
     });
-    
+    $(".box .save").click(function(){
+        if($(this).hasClass("on")){
+            $(this).removeClass("on");
+        } else{
+            $(this).addClass("on");
+        }
+    });
 });

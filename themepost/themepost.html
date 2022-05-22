@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="./themepost.css" type="text/css">
         <script src="../js/jquery-1.12.3.js"></script>
         <script src="../js/script.js"></script>
+        <link rel="stylesheet" href="./swiper/swiper.min.css">
     </head>
 <body>
     <header>
@@ -35,7 +36,7 @@
         <p>테마별 장소</p>
         <h2>이색 데이트 테마</h2>
         <div class="box">
-            <img class="arrow left_arrow" src="../img/left.png" alt="left_arrow">
+            <!-- <img class="arrow left_arrow" src="../img/left.png" alt="left_arrow">
             <div class="img"></div>
             <img class="arrow right_arrow" src="../img/right.png" alt="right_arrow">
             <div class="where">
@@ -44,6 +45,21 @@
                 <div class="circle"></div>
                 <div class="circle"></div>
                 <div class="circle"></div>
+            </div> -->
+           
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="../img/themepost.png" alt="themepost"></div>
+                    <div class="swiper-slide"><img src="../img/themepost.png" alt="themepost"></div>
+                    <div class="swiper-slide"><img src="../img/themepost.png" alt="themepost"></div>
+                    <div class="swiper-slide"><img src="../img/themepost.png" alt="themepost"></div>
+                    <div class="swiper-slide"><img src="../img/themepost.png" alt="themepost"></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
             <img class="save" src="../img/line_save.png" alt="save">
             <p>
@@ -74,5 +90,15 @@
         </nav>
         <p>ⓒ 어디갈까? ALL RIGHTS RESERVED.</p>
     </footer>
+    <script src="./swiper/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            spaceBetween: 30
+        });
+        </script>
 </body>
 </html>
