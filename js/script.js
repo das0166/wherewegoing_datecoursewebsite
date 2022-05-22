@@ -23,4 +23,11 @@ $(document).ready( function() {
             $(this).addClass("on");
         }
     });
+    $(".comment .save").click(function(){
+        if($(this).hasClass("on")){
+            $(this).removeClass("on");
+        } else{
+            $(this).addClass("on");
+        }
+    });
 });
