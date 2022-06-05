@@ -341,7 +341,7 @@ header nav .gnb>li>a{
 .theme .theme_list ul li .all_img{
     width: 160px;
     height: 160px;
-    background: #C7C7C7;
+    background: #fff;
     float: left;
     margin: 20px 15px 20px 20px;
 }
