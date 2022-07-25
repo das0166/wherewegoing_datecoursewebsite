@@ -11,6 +11,8 @@ a{
 }
 body{
     font-family: 'Noto Sans KR', sans-serif;
+    width: 100%;
+    margin: 0 auto;
 }
 
 header{
@@ -20,15 +22,16 @@ header{
     position: relative;
 }
 header h1{
-    width: 100%;
-    height: 100px;
-    text-align: center;
+    width: 280px;
+    height: 90px;
+    margin: 0 auto;
 }
+.logo_img{width:100%; height:100%;}
 header .lo_jo{
     width: 130px;
     height: 30px;
     position: absolute;
-    right: 360px;
+    right:10%;
     top: 40px;
 }
 header .lo_jo li{
@@ -54,17 +57,22 @@ header nav{
 }
 header nav .gnb{
     text-align: center;
-    padding-top: 28px;
-    margin-left: 34%;
+    width: 620px;
+    height: 100%;
+    margin: 0 auto;
 }
 header nav .gnb>li{
+    line-height: 80px;
     width: 100px;
     float: left;
-    height: 50px;
+    height: 80px;
     font-size: 16px;
     box-sizing: border-box;
     text-align: center;
     margin-right: 30px;
+}
+header nav .gnb>li:nth-child(5){
+    margin: 0;
 }
 header nav .gnb>li:hover>a{
     border-bottom: 4px solid #6167B2;
@@ -95,7 +103,9 @@ header nav .gnb>li>a{
     left: 0;
 }
 .slide img{
-    width: 1895px;
+    width: 100%;
+    height: 100%;
+    max-height: 650px;
 }
 .container{
     margin: 0 auto;
@@ -119,7 +129,7 @@ header nav .gnb>li>a{
     float: left;
 }
 .Top ul>li.box1,.Top ul>li.box2{
-    margin-right: 144px;
+    margin-right: 142px;
 }
 .Top ul>li>img{
     width: 300px;
@@ -228,4 +238,9 @@ footer p{
     position: absolute;
     left: 844px;
     bottom: 47px;
+}
+
+
+@media (max-width:1150.9px){
+    .slide{height: 540px;}
 }
