@@ -17,7 +17,7 @@ body{
 
 header{
     width: 100%;
-    height: 180px;
+    height: 172px;
     z-index: 10;
     position: relative;
 }
@@ -83,7 +83,7 @@ header nav .gnb>li.on>a{
 }
 header nav .gnb>li>a{
     width: 100%;
-    height: 100%;
+    height: 75.984px;
     display: block;
 }
 .contents{
@@ -181,6 +181,7 @@ header nav .gnb>li>a{
     float: left;
     position: relative;
 }
+.recommend ul li img{width:100%}
 .recommend ul li.course1{
     margin-right: 20px;
 }
@@ -238,6 +239,17 @@ footer p{
     position: absolute;
     left: 844px;
     bottom: 47px;
+}
+
+
+
+@media (min-width:1379px) and (max-width:1470.9px){
+    .Top ul>li.box1, .Top ul>li.box2{margin-right: 140px;}
+}
+@media (min-width:1279px) and (max-width:1379.9px){
+    .container{width: 1100px;}
+    .Top ul>li.box1, .Top ul>li.box2{margin-right: 65px;}
+    .recommend ul li.course1{margin-right: 10px;}
 }
 
 
