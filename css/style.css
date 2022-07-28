@@ -128,16 +128,21 @@ header nav .gnb>li>a{
     border: 1px solid #707070;
     float: left;
 }
+.Top ul>li div.top_box{
+    margin: 10px auto 20px;
+    width: 300px;
+    height: 300px;
+}
 .Top ul>li.box1,.Top ul>li.box2{
     margin-right: 142px;
 }
-.Top ul>li>img{
-    width: 300px;
-    height: 300px;
-    margin: 10px;
+.Top ul>li .top_box img{
+    width: 100%;
+    height: 100%;
 }
 .Top ul>li .icon{
-    margin: 0 10px;
+    margin: 0 auto;
+    width: 300px;
 }
 .Top ul>li .icon img{
     width: 20px;
@@ -150,7 +155,8 @@ header nav .gnb>li>a{
 }
 .Top ul>li p{
     font-size: 18px;
-    margin: 15px 10px;
+    margin: 15px auto;
+    width: 300px;
 }
 .recommend{
     margin-top: 150px;
@@ -232,21 +238,24 @@ footer .fo_mar p{color: #707070; font-size: 16px; width: 267px; height: 23px; ma
 }
 @media (min-width:1180px) and (max-width:1379.9px){
     .slide{height: 500px;}
-    .container{width: 1100px;}
+    .container{width: 1096px;}
     .Top ul>li.box1, .Top ul>li.box2{margin-right: 65px;}
-    .recommend ul li.course1{margin-right: 10px;}
+    .recommend ul li.course1{margin-right: 6px;}
     .recommend ul li, .recommend ul li div {width: 545px;}
     .Top,.recommend{margin-top: 100px;}
 }
 @media (min-width:980px) and (max-width:1179.9px){
     .slide{height: 340px;}
-    .container{width: 100%;}
+    .container{width: 900px;}
     .Top ul {overflow-x: scroll; width: 100%; flex-wrap: nowrap; display: flex; justify-content: start;}
     .Top ul::-webkit-scrollbar{display: none;}
-    .Top ul>li{width: 33.3%;}
+    .Top ul>li{width: 33.3%; height: 370px;}
+    .Top ul>li div.top_box {margin: 15px auto 15px; width: 240px; height: 240px;}
+    .Top ul>li .icon{width: 240px;}
+    .Top ul>li p{font-size: 16px; width: 241px; margin: 10px auto;}
     .Top ul>li.box1, .Top ul>li.box2{margin-right: 65px;}
     .recommend ul li.course1{margin-right: 10px;}
-    .recommend ul li, .recommend ul li div {width: 470px; height: 257px;}
+    .recommend ul li, .recommend ul li div{width: 445px; height: 257px;}
     .recommend ul li h3{font-size: 23px;}
     .recommend ul li p{font-size: 16px; top: 99px;}
     .recommend{height: 328px;}
@@ -261,13 +270,15 @@ footer .fo_mar p{color: #707070; font-size: 16px; width: 267px; height: 23px; ma
 
 
 @media (min-width:800px) and (max-width:979.9px){
-
     .slide{height: 340px;}
-    .container{width: 1000px;}
+    .container{width: 700px;}
     .Top ul {overflow-x: scroll; width: 100%; flex-wrap: nowrap; display: flex; justify-content: start;}
     .Top ul::-webkit-scrollbar{display: none;}
     .Top ul>li{width: 33.3%;}
     .Top ul>li.box1, .Top ul>li.box2{margin-right: 65px;}
+    .Top ul>li div.top_box {margin: 15px auto 30px; width: 250px; height: 260px;}
+    .Top ul>li .icon{width: 260px;}
+    .Top ul>li p{font-size: 16px; width: 260px;}
     .recommend ul li.course1{margin-right: 10px;}
     .recommend ul li, .recommend ul li div {width: 470px; height: 257px;}
     .recommend ul li h3{font-size: 23px;}
