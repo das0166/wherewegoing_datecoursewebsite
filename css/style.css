@@ -345,7 +345,8 @@ footer .fo_mar p{color: #707070; font-size: 16px; width: 267px; height: 23px; ma
     header .lo_jo {width: 88px;height: 15px;}
     header .lo_jo li{font-size: 10px;}
     header nav{height: 50px;}
-    header nav .gnb>li{font-size: 10px; line-height: 50px;}
+    header nav .gnb{width:600px;}
+    header nav .gnb>li{font-size: 10px; line-height: 50px; width: 16%;}
     header nav .gnb>li>a{height: 46.984px;}
     .slide{height: 250px;}
     .container{width: 530px;}
