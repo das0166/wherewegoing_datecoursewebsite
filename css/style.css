@@ -338,3 +338,40 @@ footer .fo_mar p{color: #707070; font-size: 16px; width: 267px; height: 23px; ma
     footer .fo_mar nav .fo_menu li{margin-right: 15px; font-size: 10px;}
     footer .fo_mar p{font-size: 10px; margin-top: 0px;}
 }
+
+@media (min-width:600px) and (max-width:649.9px){
+    header{height: 142px;}
+    header h1{width: 215px; height: 67px; margin: 23px auto;}
+    header .lo_jo {width: 88px;height: 15px;}
+    header .lo_jo li{font-size: 10px;}
+    header nav{height: 50px;}
+    header nav .gnb>li{font-size: 10px; line-height: 50px;}
+    header nav .gnb>li>a{height: 46.984px;}
+    .slide{height: 250px;}
+    .container{width: 530px;}
+    .Top{margin-top: 80px; height:247px;}
+    .Top h2{font-size: 14px;}
+    .Top ul {overflow-x: scroll; width: 100%; flex-wrap: nowrap; display: flex; justify-content: start;}
+    .Top ul::-webkit-scrollbar{display: none;}
+    .Top ul>li{width: 33.3%; height: 185px;}
+    .Top ul>li.box1, .Top ul>li.box2{margin-right: 65px;}
+    .Top ul>li div.top_box {margin: 5px auto -2px; width: 120px; height: 120px}
+    .Top ul>li .icon{width: 120px;} 
+    .Top ul>li .icon img {width: 11px; height: 10px;}
+    .Top ul>li .icon img:nth-child(4){margin-top: 8px;}
+    .Top ul>li p{font-size: 10px; width: 120px; margin: 3px auto;}
+    .recommend{margin-top: 50px; height: 214px;}
+    .recommend .tit h2{font-size: 14px;}
+    .recommend .tit a{font-size: 10px;}
+    .recommend .tit a img {width: 7px; height: 7px; margin-left: 3px;}
+    .recommend ul li.course1{margin-right: 10px;}
+    .recommend ul li, .recommend ul li div {width: 260px; height: 142px;}
+    .recommend ul li h3{font-size: 13px; top: 20px; right: 20px;}
+    .recommend ul li p{font-size: 10px; top: 63px; right: 20px;}
+    footer {height: 130px; margin-top: 110px;}
+    footer .fo_mar{width: 444px; height: 53px; padding-top: 45px;}
+    footer .fo_mar h1{width: 130px; height: 40px; margin-right: 42px;}
+    footer .fo_mar nav{width: 272px;}
+    footer .fo_mar nav .fo_menu li{margin-right: 15px; font-size: 10px;}
+    footer .fo_mar p{font-size: 10px; margin-top: 0px; width: 267px;}
+}
