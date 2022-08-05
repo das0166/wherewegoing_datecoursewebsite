@@ -494,3 +494,46 @@ footer .fo_mar p{color: #707070; font-size: 16px; width: 267px; height: 23px; ma
     footer .fo_mar nav .fo_menu li{margin-right: 15px; font-size: 10px;}
     footer .fo_mar p{font-size: 10px; margin-top: 0px; width: 267px;}
 }
+
+@media (min-width:400px) and (max-width:449.9px){
+    header{height: 119px;}
+    header h1{width: 165px; height: 51px; margin: 16px auto;}
+    header .lo_jo {width: 88px;height: 15px; right: 3%;}
+    header .lo_jo li{font-size: 10px;}
+    header nav{height: 50px;}
+    header nav .gnb{width:100%;}
+    header nav .gnb>li{font-size: 10px; line-height: 50px; width: 55px; height: 50px;}
+    header nav .gnb>li>a{height: 46.984px;}
+    .slide{height: 150px;}
+    .container{width: 350px;}
+    .Top{margin-top: 50px; height:247px;}
+    .Top .top_scroll{margin-top: -20px; height:245px; overflow: hidden; overflow: scroll;}
+    .Top h2{font-size: 13px;}
+    .Top .top_scroll ul {overflow-x: scroll; width: 574px; flex-wrap: nowrap; display: flex; justify-content: start;}
+    .Top ul::-webkit-scrollbar,  .Top .top_scroll::-webkit-scrollbar{display: none;}
+    .Top ul>li{width: 33.3%; height: 201px;}
+    .Top ul>li.box1, .Top ul>li.box2{margin-right: 60px;}
+    .Top ul>li div.top_box {margin: 8px auto 0px; width: 130px; height: 130px;}
+    .Top ul>li .icon{width: 130px;} 
+    .Top ul>li .icon img {width: 13px; height: 13px;}
+    .Top ul>li .icon img:nth-child(4){margin-top: 5px;}
+    .Top ul>li p{font-size: 10px; width: 130px; margin: 3px auto;}
+    .recommend{margin-top: 50px; height: 265px;}
+    .recommend .tit{height: 20px;}
+    .recommend .tit h2{font-size: 13px;}
+    .recommend .tit a{font-size: 10px;}
+    .recommend .tit a img {width: 7px; height: 7px; margin-left: 3px;}
+    .recommend ul{margin-top:20px; }
+    .recommend ul li.course1{margin-right: 0; }
+    .recommend ul li, .recommend ul li div {width: 100%; height: 107px; overflow: hidden;}
+    .recommend ul li:last-child{margin-top: 10px;}
+    .recommend ul li img{object-fit: cover; margin-top:-25px;}
+    .recommend ul li h3{font-size: 12px; top: 15px; right: 15px;}
+    .recommend ul li p{font-size: 10px; top: 53px; right: 15px;}
+    footer {height: 115px; margin-top: 70px;}
+    footer .fo_mar{width: 392px; height: 53px; padding-top: 40px;}
+    footer .fo_mar h1{width: 100px; height: 35px; margin-right: 20px;}
+    footer .fo_mar nav{width: 272px;}
+    footer .fo_mar nav .fo_menu li{margin-right: 15px; font-size: 10px;}
+    footer .fo_mar p{font-size: 10px; margin-top: 0px; width: 267px;}
+}
