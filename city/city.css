@@ -327,14 +327,10 @@ footer .fo_mar nav{height: 30px; width: 504px; float: left;}
 footer .fo_mar nav .fo_menu li{float: left; margin-right: 20px; font-size: 20px; color: #707070;}
 footer .fo_mar p{color: #707070; font-size: 16px; width: 267px; height: 23px; margin-top: 10px; float: left;}
 
-@media (min-width:1380px) and (max-width:1150.9px){
-  
-}
-@media (min-width:1380px) and (max-width:1470.9px){
-    
-}
-@media (min-width:1180px) and (max-width:1379.9px){
-
+@media (min-width:1180px) and (max-width:1570.9px){
+    .contents{width: 1100px;}
+    .course-select-box h3:nth-child(2){margin-left: 76px;}
+    .course-select-box ul{left: 48px;}
 }
 @media (min-width:980px) and (max-width:1179.9px){
     footer {height: 130px;}
