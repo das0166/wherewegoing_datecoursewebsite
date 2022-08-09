@@ -11,6 +11,8 @@ a{
 }
 body{
     font-family: 'Noto Sans KR', sans-serif;
+    width: 100%;
+    margin: 0 auto;
 }
 .contents{
     width: 1260px;
@@ -30,20 +32,21 @@ body{
 }
 header{
     width: 100%;
-    height: 180px;
+    height: 172px;
     z-index: 10;
     position: relative;
 }
 header h1{
-    width: 100%;
-    height: 100px;
-    text-align: center;
+    width: 280px;
+    height: 90px;
+    margin: 0 auto;
 }
+.logo_img{width:100%; height:100%;}
 header .lo_jo{
     width: 130px;
     height: 30px;
     position: absolute;
-    right: 360px;
+    right:10%;
     top: 40px;
 }
 header .lo_jo li{
@@ -69,17 +72,22 @@ header nav{
 }
 header nav .gnb{
     text-align: center;
-    padding-top: 28px;
-    margin-left: 34%;
+    width: 620px;
+    height: 100%;
+    margin: 0 auto;
 }
 header nav .gnb>li{
+    line-height: 80px;
     width: 100px;
     float: left;
-    height: 50px;
+    height: 80px;
     font-size: 16px;
     box-sizing: border-box;
     text-align: center;
     margin-right: 30px;
+}
+header nav .gnb>li:nth-child(5){
+    margin: 0;
 }
 header nav .gnb>li:hover>a{
     border-bottom: 4px solid #6167B2;
@@ -312,27 +320,207 @@ footer{
     position: relative;
     margin-top: 130px;
 }
-footer h1{
-    position: absolute;
-    left: 594px;
-    top: 56px;
+footer .fo_mar{width: 784px; height: 70px; margin: 0 auto; padding-top: 57px;}
+footer .fo_mar h1{width: 180px; height: 60px; float: left; margin-right: 100px;}
+footer .fo_mar h1 img{width:100%; height: 100%;}
+footer .fo_mar nav{height: 30px; width: 504px; float: left;}
+footer .fo_mar nav .fo_menu li{float: left; margin-right: 20px; font-size: 20px; color: #707070;}
+footer .fo_mar p{color: #707070; font-size: 16px; width: 267px; height: 23px; margin-top: 10px; float: left;}
+
+@media (min-width:1380px) and (max-width:1150.9px){
+  
 }
-footer nav .fo_menu{
-    position: absolute;
-    top: 47px;
-    left: 844px;
+@media (min-width:1380px) and (max-width:1470.9px){
     
 }
-footer nav .fo_menu li{
-    float: left;
-    margin-right: 20px;
-    font-size: 20px;
-    color: #707070;
+@media (min-width:1180px) and (max-width:1379.9px){
+
 }
-footer p{
-    color: #707070;
-    font-size: 16px;
-    position: absolute;
-    left: 844px;
-    bottom: 47px;
+@media (min-width:980px) and (max-width:1179.9px){
+    footer {height: 130px;}
+    footer .fo_mar{width: 583px; height: 53px; padding-top: 45px;}
+    footer .fo_mar h1{width: 163px; height: 53px; margin-right: 42px;}
+    footer .fo_mar nav{width: 378px;}
+    footer .fo_mar nav .fo_menu li{margin-right: 15px; font-size: 15px;}
+    footer .fo_mar p{font-size: 12px; margin-top: 0px;}
+}
+
+
+@media (min-width:700px) and (max-width:979.9px){
+    header{height: 152px;}
+    header h1{width: 215px; height: 67px; margin: 23px auto;}
+    header .lo_jo li{font-size: 13px;}
+    header nav{height: 60px;}
+    header nav .gnb>li{font-size: 13px; line-height: 60px;}
+    header nav .gnb>li>a{height: 56.984px;}
+ 
+    footer {height: 130px;}
+    footer .fo_mar{width: 583px; height: 53px; padding-top: 45px;}
+    footer .fo_mar h1{width: 143px; height: 47px; margin-right: 42px;}
+    footer .fo_mar nav{width: 378px;}
+    footer .fo_mar nav .fo_menu li{margin-right: 15px; font-size: 12px;}
+    footer .fo_mar p{font-size: 10px; margin-top: 0px;}
+}
+
+
+@media (min-width:650px) and (max-width:699.9px){
+    header{height: 142px;}
+    header h1{width: 215px; height: 67px; margin: 23px auto;}
+    header .lo_jo {width: 88px;height: 15px;}
+    header .lo_jo li{font-size: 10px;}
+    header nav{height: 50px;}
+    header nav .gnb>li{font-size: 10px; line-height: 50px;}
+    header nav .gnb>li>a{height: 46.984px;}
+   
+    footer {height: 130px; margin-top: 110px;}
+    footer .fo_mar{width: 583px; height: 53px; padding-top: 45px;}
+    footer .fo_mar h1{width: 130px; height: 40px; margin-right: 42px;}
+    footer .fo_mar nav{width: 378px;}
+    footer .fo_mar nav .fo_menu li{margin-right: 15px; font-size: 10px;}
+    footer .fo_mar p{font-size: 10px; margin-top: 0px;}
+}
+
+@media (min-width:600px) and (max-width:649.9px){
+    header{height: 142px;}
+    header h1{width: 215px; height: 67px; margin: 23px auto;}
+    header .lo_jo {width: 88px;height: 15px;}
+    header .lo_jo li{font-size: 10px;}
+    header nav{height: 50px;}
+    header nav .gnb{width:600px;}
+    header nav .gnb>li{font-size: 10px; line-height: 50px; width: 16%;}
+    header nav .gnb>li>a{height: 46.984px;}
+   
+    footer {height: 130px; margin-top: 110px;}
+    footer .fo_mar{width: 444px; height: 53px; padding-top: 45px;}
+    footer .fo_mar h1{width: 130px; height: 40px; margin-right: 42px;}
+    footer .fo_mar nav{width: 272px;}
+    footer .fo_mar nav .fo_menu li{margin-right: 15px; font-size: 10px;}
+    footer .fo_mar p{font-size: 10px; margin-top: 0px; width: 267px;}
+}
+
+@media (min-width:550px) and (max-width:599.9px){
+    header{height: 119px;}
+    header h1{width: 165px; height: 51px; margin: 16px auto;}
+    header .lo_jo {width: 88px;height: 15px;}
+    header .lo_jo li{font-size: 10px;}
+    header nav{height: 50px;}
+    header nav .gnb{width:550px;}
+    header nav .gnb>li{font-size: 10px; line-height: 50px; width: 82px; height: 50px;}
+    header nav .gnb>li>a{height: 46.984px;}
+  
+    footer {height: 130px; margin-top: 70px;}
+    footer .fo_mar{width: 444px; height: 53px; padding-top: 45px;}
+    footer .fo_mar h1{width: 130px; height: 40px; margin-right: 42px;}
+    footer .fo_mar nav{width: 272px;}
+    footer .fo_mar nav .fo_menu li{margin-right: 15px; font-size: 10px;}
+    footer .fo_mar p{font-size: 10px; margin-top: 0px; width: 267px;}
+}
+
+@media (min-width:500px) and (max-width:549.9px){
+    header{height: 119px;}
+    header h1{width: 165px; height: 51px; margin: 16px auto;}
+    header .lo_jo {width: 88px;height: 15px;}
+    header .lo_jo li{font-size: 10px;}
+    header nav{height: 50px;}
+    header nav .gnb{width:100%;}
+    header nav .gnb>li{font-size: 10px; line-height: 50px; width: 76px; height: 50px;}
+    header nav .gnb>li>a{height: 46.984px;}
+  
+    footer {height: 130px; margin-top: 70px;}
+    footer .fo_mar{width: 444px; height: 53px; padding-top: 45px;}
+    footer .fo_mar h1{width: 130px; height: 40px; margin-right: 42px;}
+    footer .fo_mar nav{width: 272px;}
+    footer .fo_mar nav .fo_menu li{margin-right: 15px; font-size: 10px;}
+    footer .fo_mar p{font-size: 10px; margin-top: 0px; width: 267px;}
+}
+
+@media (min-width:450px) and (max-width:499.9px){
+    header{height: 119px;}
+    header h1{width: 165px; height: 51px; margin: 16px auto;}
+    header .lo_jo {width: 88px;height: 15px; right: 5%;}
+    header .lo_jo li{font-size: 10px;}
+    header nav{height: 50px;}
+    header nav .gnb{width:100%;}
+    header nav .gnb>li{font-size: 10px; line-height: 50px; width: 65px; height: 50px;}
+    header nav .gnb>li>a{height: 46.984px;}
+  
+    footer {height: 115px; margin-top: 70px;}
+    footer .fo_mar{width: 392px; height: 53px; padding-top: 40px;}
+    footer .fo_mar h1{width: 100px; height: 35px; margin-right: 20px;}
+    footer .fo_mar nav{width: 272px;}
+    footer .fo_mar nav .fo_menu li{margin-right: 15px; font-size: 10px;}
+    footer .fo_mar p{font-size: 10px; margin-top: 0px; width: 267px;}
+}
+
+@media (min-width:400px) and (max-width:449.9px){
+    header{height: 119px;}
+    header h1{width: 165px; height: 51px; margin: 16px auto;}
+    header .lo_jo {width: 88px;height: 15px; right: 3%;}
+    header .lo_jo li{font-size: 10px;}
+    header nav{height: 50px;}
+    header nav .gnb{width:100%;}
+    header nav .gnb>li{font-size: 10px; line-height: 50px; width: 55px; height: 50px;}
+    header nav .gnb>li>a{height: 46.984px;}
+   
+    footer {height: 115px; margin-top: 70px;}
+    footer .fo_mar{width: 392px; height: 53px; padding-top: 40px;}
+    footer .fo_mar h1{width: 100px; height: 35px; margin-right: 20px;}
+    footer .fo_mar nav{width: 272px;}
+    footer .fo_mar nav .fo_menu li{margin-right: 15px; font-size: 10px;}
+    footer .fo_mar p{font-size: 10px; margin-top: 0px; width: 267px;}
+}
+
+@media (min-width:350px) and (max-width:399.9px){
+    header{height: 119px;}
+    header h1{width: 165px; height: 51px; margin: 16px auto;}
+    header .lo_jo {width: 88px;height: 15px; right: 3%;}
+    header .lo_jo li{font-size: 10px;}
+    header nav{height: 50px;}
+    header nav .gnb{width:100%;}
+    header nav .gnb>li{font-size: 10px; line-height: 50px; width: 49px; height: 50px; margin-right: 26px;}
+    header nav .gnb>li>a{height: 46.984px;}
+   
+    footer {height: 115px; margin-top: 40px;}
+    footer .fo_mar{width: 346px; height: 53px; padding-top: 40px;}
+    footer .fo_mar h1{width: 100px; height: 35px; margin-right: 10px;}
+    footer .fo_mar nav{width: 236px;}
+    footer .fo_mar nav .fo_menu li{margin-right: 6px; font-size: 10px;}
+    footer .fo_mar p{font-size: 10px; margin-top: 0px; width: 192px;}
+}
+
+@media (min-width:300px) and (max-width:349.9px){
+    header{height: 100px;}
+    header h1{width: 84px; height: 38px; margin:10px auto;}
+    header .lo_jo {width: 88px;height: 15px; right: 3%; top: 25px;}
+    header .lo_jo li{font-size: 10px;}
+    header nav{height: 50px;}
+    header nav .gnb{width:100%;}
+    header nav .gnb>li{font-size: 10px; line-height: 50px; width: 49px; height: 50px; margin-right: 13px;}
+    header nav .gnb>li>a{height: 46.984px;}
+  
+    footer {height: 115px; margin-top: 40px;}
+    footer .fo_mar{width: 259px; height: 77px; padding-top: 16px;}
+    footer .fo_mar h1{width: 87px; height: 32px; margin-right: 0px;}
+    footer .fo_mar nav{width: 256px; margin-top: 14px; height: 18px;}
+    footer .fo_mar nav .fo_menu li{margin-right: 11px; font-size: 10px;}
+    footer .fo_mar p{font-size: 10px; margin-top: 6px; width: 192px;}
+}
+
+@media (max-width:299.9px){
+    body{margin-top: -20px;}
+    header{height: 100px;}
+    header h1{width: 94px; height: 32px; margin:37px auto 19px;}
+    header .lo_jo {width: 78px;height: 15px; right: 0; top: 25px;}
+    header .lo_jo li{font-size: 10px; margin-right: 5px;}
+    header nav{height: 50px;  overflow: hidden; overflow: scroll;}
+    header nav .gnb{width: 298px; overflow-x: scroll; flex-wrap: nowrap; display: flex; justify-content: start;}
+    header nav .gnb>li{font-size: 10px; line-height: 50px; width: 49px; height: 49px; margin-right: 13px;}
+    header nav .gnb>li>a{height: 46.984px;}
+   
+    footer {height: 115px; margin-top: 40px;}
+    footer .fo_mar{width: 225px; height: 77px; padding-top: 16px;}
+    footer .fo_mar h1{width: 87px; height: 32px; margin-right: 0px;}
+    footer .fo_mar nav{width: 228px; margin-top: 14px; height: 18px;}
+    footer .fo_mar nav .fo_menu li{margin-right: 4px; font-size: 10px;}
+    footer .fo_mar p{font-size: 10px; margin-top: 6px; width: 192px;}
 }
