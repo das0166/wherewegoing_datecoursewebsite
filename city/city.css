@@ -360,8 +360,8 @@ footer .fo_mar p{color: #707070; font-size: 16px; width: 267px; height: 23px; ma
     .contents{width: 700px;}
     .city_select{margin-left: 147px;}
     .select-box{width: 120px;}
-    .search{margin-top: 19px; margin-right: -24px;}
-    .search input{width: 102px;}
+    .search{margin-top: 19px; margin-right: 0px;}
+    .search input{width: 81px; font-size: 12px;}
     .map{height:400px;}
     .map>div{width:400px; height:400px;}
     .course-select-box h3{width: 103px;}
