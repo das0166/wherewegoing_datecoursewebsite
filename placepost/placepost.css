@@ -787,7 +787,43 @@ footer .fo_mar p{color: #707070; font-size: 16px; width: 267px; height: 23px; ma
 
     .contents{width: 270px;}
     .contents>p{font-size: 10px;}
+    .contents .place{margin-top: 0px; height: 878px;}
     .contents .place h2{font-size: 14px;}
+    .contents .place .img{height: 368px; width: 260px;}
+    .swiper-button-next{right: -4px !important;}
+    .swiper-button-prev{left: -4px !important;}
+    .gallery-top, .swiper-wrapper, .contents .place .map .map_img, .contents .place .map{height: 200px; width: 200px;}
+    .gallery-thumbs .swiper-slide{width: 100px; height: 100px;}
+    .gallery-thumbs{height: 150px;}
+    .contents .place .ex {padding-top:0; width: 268px;}
+    .contents .place .ex h4 span.tit{font-size: 12px;}
+    .contents .place .ex h4 span.tit_ex{font-size: 10px; margin-left: 5px;}
+    .visit>p{font-size: 15px;}
+    .visit p.more{font-size: 10px;}
+    .visit .review .img{width:70px; height:70px; margin-left: -85px; margin-top: 44px;}
+    .visit .review .id{font-size: 10px; margin-left: 6px; margin-top: 10px;}
+    .visit .review .star{margin-top: 4px; width: 60px; padding-left: 6px;}  
+    .visit .review .star img{width:9px; height:9px;}
+    .visit .review .review_1 .review_nae{margin: 97px 12px 0 12px; font-size: 10px; height: 64px; width: 102px; overflow: hidden; text-overflow: ellipsis;}
+    .visit .review .review_2 .review_nae{font-size: 10px; margin-left: 12px; margin-right: 12px;}
+    .visit {height: 248px;}
+    .comment{height: 434px;}
+    .comment .ico_comment, .comment .save{width:16px; height:16px; margin-top: 15px;}
+    .comment .ico_comment{margin-left: 10px;}
+    .comment .save{margin-right: 10px;}
+    .comment_full .more{font-size: 12px;}
+    .comment_full .ico_more{width: 14px;}
+    .comment .comment_gae{font-size: 13px; margin-left: 7px; margin-top: 14px;}
+    .comment_full{height: 298px; left: 10px;}
+    .comment_full .comment_group:nth-child(4), .comment_full .comment_group:nth-child(5){margin-top: -6px;}
+    .comment_group .comment_fir{width: 224px;}
+    .comment_group .comment_sec{width: 157px;}
+    .comment_group .comment_thir {width: 255px;}
+    .comment_group .comment_shape{height: 43px;}
+    .comment_group .nick{font-size: 10px;}
+    .comment_group .comment_shape p{font-size: 10px; padding-top: 12px;}
+    input{height: 40px; font-size: 11px; top: 367px;}
+    button{width: 46px; height: 29px; font-size: 10px; top: 424px;}
 
     footer {height: 115px; margin-top: 40px;}
     footer .fo_mar{width: 225px; height: 77px; padding-top: 16px;}
