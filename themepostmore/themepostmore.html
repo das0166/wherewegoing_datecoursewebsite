@@ -10,29 +10,10 @@
     <script src="../js/script.js"></script>
 </head>
 <body>
-    <div class="modal">
-        <div class="modal_inner">
-            <p class="id">park_jae</p>
-            <div class="star">
-                <img src="../img/star.png" alt="star">
-                <img src="../img/star.png" alt="star">
-                <img src="../img/star.png" alt="star">
-                <img src="../img/star.png" alt="star">
-                <img src="../img/star.png" alt="star">
-            </div>
-            <button class="btn">X</button>
-            <div class="img"></div>
-            <p class="review_nae">
-                요즘 유행하는 그림 공방에 가봤는데 너무 좋은 추억이였어요!
-                사장님도 엄청 친절하세요~
-            </p>
-           
-        </div>
-    </div>
     <header>
         <h1>
             <a href="../main.html">
-                <img src="../img/logo.png" alt="어디갈까_logo">
+                <img src="../img/logo.png" alt="어디갈까_logo" class="logo_img">
             </a>
             <ul class='lo_jo'>
                 <li><a href='../login/login.html'>로그인</a></li>
@@ -41,12 +22,12 @@
             </ul>
         </h1>
         <nav>
-            <ul class='gnb'>
-                <li><a href='../main.html'>홈</a></li>
-                <li><a href='../city/city.html'>도시별 장소</a></li>
-                <li><a href='../theme/theme.html'>테마별 장소</a></li>
-                <li><a href='../calender/calender.html'>캘린더</a></li>
-                <li><a href="../mypage-couple/MyPage-couple.html">마이페이지</a></li>
+            <ul class="gnb">
+                <li><a href="../main.html">홈</a></li>
+                <li class="on"><a href="./city.html">도시별 장소</a></li>
+                <li><a href="../theme/theme.html">테마별 장소</a></li>
+                <li><a href="#">캘린더</a></li>
+                <li><a href="#">마이페이지</a></li>
             </ul>
         </nav>
     </header>
@@ -146,6 +127,7 @@
     </div>
 
     <footer>
+        <div class="fo_mar">
         <h1>
             <img src='../img/logo_g.png'></img>
         </h1>
@@ -158,6 +140,7 @@
             </ul>           
         </nav>
         <p>ⓒ 어디갈까? ALL RIGHTS RESERVED</p>
+    </div>
     </footer>
 </body>
 </html>
