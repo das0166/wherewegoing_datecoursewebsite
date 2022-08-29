@@ -345,6 +345,9 @@ footer .fo_mar p{color: #707070; font-size: 16px; width: 267px; height: 23px; ma
     .contents{width: 430px;}
     .contents>p{font-size: 13px;}
     .contents>h2{font-size: 17px;}
+    .review_all .review .id{font-size: 18px;}
+    .review_all .review .star img {width: 18px; height: 18px;}
+    .review_all .review_1 .review_nae, .review_all .review_2 .review_nae{font-size: 14px;}
 
     footer {height: 115px; margin-top: 70px;}
     footer .fo_mar{width: 392px; height: 53px; padding-top: 40px;}
@@ -366,7 +369,15 @@ footer .fo_mar p{color: #707070; font-size: 16px; width: 267px; height: 23px; ma
 
     .contents{width: 380px;}
     .contents>p{font-size: 10px;}
-    .contents>h2{font-size: 14px;}
+    .contents>h2{font-size: 14px; margin-bottom: 27px;}
+    .review_all .review .id{font-size: 15px; margin-top:10px}
+    .review_all .review .star {margin-top: 10px;}
+    .review_all .review .star img {width: 15px; height: 15px;}
+    .review_all .review_1 .img {top: 44px;}
+    .review_all .review_1 .review_nae{font-size: 14px; top: 40px;}
+    .review_all .review_2 .review_nae{font-size: 14px; top: 47px;}
+    .review_all .review_1, .review_all .review_2{height: 167px;}
+
 
     footer {height: 115px; margin-top: 70px;}
     footer .fo_mar{width: 392px; height: 53px; padding-top: 40px;}
