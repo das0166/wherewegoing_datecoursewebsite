@@ -713,6 +713,8 @@ footer .fo_mar p{color: #707070; font-size: 16px; width: 267px; height: 23px; ma
     .select-box .province-select, .select-box .city-select, .select-box .area-select, .select-box .province-select option, .select-box .city-select option, .select-box .area-select option{font-size: 12px;}
     .recommend {height: 566px; width: 430px;}
     .recommend ul li {width: 100%;}
+    .recommend ul li.course3 {padding-right: 0px;}
+    .recommend ul li div.background {width: 100% !important;}
     .recommend ul li.course4 {padding-left: 0px; margin-top: 30px;}
     .recommend ul li h3 {font-size: 17px; top: 14px;}
     .recommend ul li p {font-size: 13px; top: 70px;}
@@ -777,6 +779,8 @@ footer .fo_mar p{color: #707070; font-size: 16px; width: 267px; height: 23px; ma
     .select-box .province-select, .select-box .city-select, .select-box .area-select, .select-box .province-select option, .select-box .city-select option, .select-box .area-select option{font-size: 11px;}
     .recommend {height: 566px; width: 380px;}
     .recommend ul li {width: 100%;}
+    .recommend ul li.course3 {padding-right: 0px;}
+    .recommend ul li div.background {width: 100% !important;}
     .recommend ul li.course4 {padding-left: 0px; margin-top: 30px;}
     .recommend ul li h3 {font-size: 17px; top: 14px;}
     .recommend ul li p {font-size: 13px; top: 70px;}
@@ -833,6 +837,8 @@ footer .fo_mar p{color: #707070; font-size: 16px; width: 267px; height: 23px; ma
     .select-box .province-select, .select-box .city-select, .select-box .area-select, .select-box .province-select option, .select-box .city-select option, .select-box .area-select option{font-size: 10px;}
     .recommend {height: 457px; width: 330px;}
     .recommend ul li {width: 100%;}
+    .recommend ul li.course3 {padding-right: 0px;}
+    .recommend ul li div.background {width: 100% !important;}
     .recommend ul li.course4 {padding-left: 0px; margin-top: 30px;}
     .recommend ul li h3 {font-size: 17px; top: 14px;}
     .recommend ul li p {font-size: 13px; top: 70px;}
@@ -888,21 +894,42 @@ footer .fo_mar p{color: #707070; font-size: 16px; width: 267px; height: 23px; ma
     .city_select{margin-left: 0; margin-top: 39px;}
     .select-box{width: 81px; height: 32px; border: 1px solid #6167B2;}
     .select-box .province-select, .select-box .city-select, .select-box .area-select, .select-box .province-select option, .select-box .city-select option, .select-box .area-select option{font-size: 10px; padding:0;}
-    .search{width: 254px; margin-top: -80px; margin-right: 26px;}
-    .search input{width: 100%; font-size: 10px; height: 17px; padding: 5px 5px 5px 8px; border: 1px solid #6167B2;}
-    .search img{width:14px; height: 14px; right: 0px; top: 8px;}
-   
-    .theme .theme_list .choice{width: 80px; height: 30px; font-size: 11px; margin-top:12px; margin-left: 15px; border: 1px solid #6167B2;}
-    .theme .theme_list ul li{width: 262px; height: 98px; margin-bottom: 20px;}
+    .recommend {height: 402px; width: 280px;}
+    .recommend ul li {width: 100%;}
+    .recommend ul li.course3 {padding-right: 0px;}
+    .recommend ul li div.background {width: 100% !important;}
+    .recommend ul li.course4 {padding-left: 0px; margin-top: 30px;}
+    .recommend ul li h3 {font-size: 15px; top: 14px; right: 15px;} 
+    .recommend ul li p {font-size: 10px; top: 58px; right: 15px;}
+    .theme {height: 708px; margin-top: 55px;}
+    .theme .theme_list {height: 672px;}
+    .theme .theme_list h3:nth-child(2){margin-left: 8px;}
+    .theme .theme_list div.line {top: 185px;}
+    .theme .theme_list>img.left {left: 5px; top: 60px; width: 13px; height: 13px;}
+    .theme .theme_list>img.right {right: 5px; top: 60px; width: 13px; height: 13px;}
+    .theme .theme_list>div{margin-right: 32px; margin-top: 24px; height: 60px; width: 30px;} 
+    .theme .theme_list>div:nth-child(3), .theme .theme_list>div:nth-child(11) {margin-left: 25px;}
+    .theme .theme_list>div p {font-size: 10px; margin-left: 0px;}
+    .theme .theme_list>div.cafe p, .theme .theme_list>div.drink p{margin-left: 4px;} 
+    .theme .theme_list div.oneday p {font-size: 10px; margin-left: -9px;}
+    .theme .theme_list>div>div {height: 35px; width: 117%; border-radius: 16px;}
+    .theme .theme_list>div.game>div>img,.theme .theme_list>div.book>div>img, .theme .theme_list>div.drive>div>img, .theme .theme_list>div.food>div>img, .theme .theme_list>div.drink>div>img {width: 18px; top: 8px; left: 9px; height: 19px;}
+    .theme .theme_list>div.cafe>div>img, .theme .theme_list>div.oneday>div>img{width: 17px; top: 9px; left: 10px;}
+    .theme .theme_list ul{left: 7px; top: 215px;}
+    .theme .theme_list ul li{width: 262px; height: 108px; margin-bottom: 20px;}
     .theme .theme_list ul li .all_img{width:80px; height:80px; margin: 10px 6px;}
-    .theme .theme_list ul li .data{height: 87px; top: 10px;}
+    .theme .theme_list ul li .data{height: 99px; top: 10px;}
     .theme .theme_list ul li .data p{margin-bottom: 0px; font-size: 10px;}
     .theme .theme_list ul li .data h4{font-size: 10px;}
     .theme .theme_list ul li .data p span{font-size:11px;}
-    .theme .theme_list ul li .data p.tel, .theme .theme_list ul li .data p.address{display:none;}
-    
+    .theme .theme_list ul li .data h4 span.kind{font-size: 10px; margin-left: 5px;}
+    .theme .theme_list ul li .data p.tel, .theme .theme_list ul li .data p:nth-child(4){display:none;}
     .theme .theme_list ul li .data p.state, .theme .theme_list ul li .data p.location{font-size: 10px; right: 8px;}
-  
+    .theme .theme_list ul li .data p.location{bottom: 7px;}
+    .theme .theme_list ul h3 {font-size: 20px; font-weight: bold; margin-top: -4px;}
+    .theme .theme_list ul li:nth-child(2) {margin-top: 53px;}
+    .theme .theme_list .choice{width: 80px; height: 30px; font-size: 11px; margin-top:50px; margin-left: 15px; border: 1px solid #6167B2; right: 8px;}
+
     footer {height: 115px; margin-top: 40px;}
     footer .fo_mar{width: 259px; height: 77px; padding-top: 16px;}
     footer .fo_mar h1{width: 87px; height: 32px; margin-right: 0px;}
@@ -929,21 +956,42 @@ footer .fo_mar p{color: #707070; font-size: 16px; width: 267px; height: 23px; ma
     .city_select{margin-left: 0; margin-top: 39px;}
     .select-box{width: 77px; height: 32px; border: 1px solid #6167B2;}
     .select-box .province-select, .select-box .city-select, .select-box .area-select, .select-box .province-select option, .select-box .city-select option, .select-box .area-select option{font-size: 10px; padding:0;}
-    .search{width: 246px; margin-top: -80px; margin-right: 26px;}
-    .search input{width: 100%; font-size: 10px; height: 17px; padding: 5px 5px 5px 8px; border: 1px solid #6167B2;}
-    .search img{width:14px; height: 14px; right: 0px; top: 8px;}
-
-    .theme .theme_list .choice{width: 80px; height: 30px; font-size: 11px; margin-top:12px; margin-left: 15px; border: 1px solid #6167B2;}
-    .theme .theme_list ul li{width: 252px; height: 98px; margin-bottom: 20px;}
+    .recommend {height: 392px; width: 270px;}
+    .recommend ul li {width: 100%;}
+    .recommend ul li.course3 {padding-right: 0px;}
+    .recommend ul li div.background {width: 100% !important;}
+    .recommend ul li.course4 {padding-left: 0px; margin-top: 30px;}
+    .recommend ul li h3 {font-size: 15px; top: 14px; right: 15px;} 
+    .recommend ul li p {font-size: 10px; top: 58px; right: 15px;}
+    .theme {height: 743px; margin-top: 55px;}
+    .theme .theme_list {height: 707px;}
+    .theme .theme_list h3:nth-child(2){margin-left: 8px;}
+    .theme .theme_list div.line {top: 185px;}
+    .theme .theme_list>img.left {left: 5px; top: 60px; width: 13px; height: 13px;}
+    .theme .theme_list>img.right {right: 5px; top: 60px; width: 13px; height: 13px;}
+    .theme .theme_list>div{margin-right: 32px; margin-top: 24px; height: 60px; width: 30px;} 
+    .theme .theme_list>div:nth-child(3), .theme .theme_list>div:nth-child(11) {margin-left: 20px;}
+    .theme .theme_list>div p {font-size: 10px; margin-left: 0px;}
+    .theme .theme_list>div.cafe p, .theme .theme_list>div.drink p{margin-left: 4px;} 
+    .theme .theme_list div.oneday p {font-size: 10px; margin-left: -9px;}
+    .theme .theme_list>div>div {height: 35px; width: 117%; border-radius: 16px;}
+    .theme .theme_list>div.game>div>img,.theme .theme_list>div.book>div>img, .theme .theme_list>div.drive>div>img, .theme .theme_list>div.food>div>img, .theme .theme_list>div.drink>div>img {width: 18px; top: 8px; left: 9px; height: 19px;}
+    .theme .theme_list>div.cafe>div>img, .theme .theme_list>div.oneday>div>img{width: 17px; top: 9px; left: 10px;}
+    .theme .theme_list ul{left: 7px; top: 215px;}
+    .theme .theme_list ul li{width: 252px; height: 120px; margin-bottom: 20px;}
     .theme .theme_list ul li .all_img{width:80px; height:80px; margin: 10px 6px;}
-    .theme .theme_list ul li .data{height: 87px; top: 10px;}
+    .theme .theme_list ul li .data{height: 110px; top: 10px;}
     .theme .theme_list ul li .data p{margin-bottom: 0px; font-size: 10px;}
     .theme .theme_list ul li .data h4{font-size: 10px;}
     .theme .theme_list ul li .data p span{font-size:11px;}
-    .theme .theme_list ul li .data p.tel, .theme .theme_list ul li .data p.address{display:none;}
-    
+    .theme .theme_list ul li .data h4 span.kind{font-size: 10px; margin-left: 5px;}
+    .theme .theme_list ul li .data p.tel, .theme .theme_list ul li .data p:nth-child(4){display:none;}
     .theme .theme_list ul li .data p.state, .theme .theme_list ul li .data p.location{font-size: 10px; right: 8px;}
-   
+    .theme .theme_list ul li .data p.location{bottom: 7px;}
+    .theme .theme_list ul h3 {font-size: 20px; font-weight: bold; margin-top: -4px;}
+    .theme .theme_list ul li:nth-child(2) {margin-top: 53px;}
+    .theme .theme_list .choice{width: 80px; height: 30px; font-size: 11px; margin-top:50px; margin-left: 15px; border: 1px solid #6167B2; right: 8px;}
+
     footer {height: 115px; margin-top: 40px;}
     footer .fo_mar{width: 225px; height: 77px; padding-top: 16px;}
     footer .fo_mar h1{width: 87px; height: 32px; margin-right: 0px;}
