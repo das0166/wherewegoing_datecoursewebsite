@@ -107,10 +107,7 @@ header nav .gnb>li>a{
     margin: 0 auto;
     position: relative;
 }
-.swiper-container {
-    width: 100%;
-    height: 885px;
-}
+
 .swiper-slide {
     /* Center slide text vertically */
     display: -webkit-box;
@@ -126,6 +123,9 @@ header nav .gnb>li>a{
     -webkit-align-items: center;
     align-items: center;
 }
+
+.swiper-slide img{width:calc(100% - 105px); height: calc(100% - 105px);}
+
 .box .save{
     position: absolute;
     top: 850px;
@@ -190,7 +190,12 @@ footer .fo_mar p{color: #707070; font-size: 16px; width: 267px; height: 23px; ma
     header nav .gnb>li>a{height: 56.984px;}
 
     .contents{width: 700px;}
-
+    .box {width: 600px; height: 1045px;}
+    .box p {width: 500px;font-size: 17px;}
+    .box p span.title {font-size: 20px;}
+    .swiper-wrapper {height: 700px !important;}
+    .box .save {top: 665px;}
+    
     footer {height: 130px;}
     footer .fo_mar{width: 583px; height: 53px; padding-top: 45px;}
     footer .fo_mar h1{width: 143px; height: 47px; margin-right: 42px;}
