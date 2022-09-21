@@ -215,6 +215,11 @@ footer .fo_mar p{color: #707070; font-size: 16px; width: 267px; height: 23px; ma
     header nav .gnb>li>a{height: 46.984px;}
 
     .contents{width: 622px;}
+    .box {width: 590px; height: 915px;}
+    .box p {width: 500px;font-size: 17px;}
+    .box p span.title {font-size: 20px;}
+    .swiper-wrapper {height: 565px !important;}
+    .box .save {top: 665px;}
 
     footer {height: 130px; margin-top: 110px;}
     footer .fo_mar{width: 583px; height: 53px; padding-top: 45px;}
