@@ -376,6 +376,13 @@ footer .fo_mar p{color: #707070; font-size: 16px; width: 267px; height: 23px; ma
     .contents{width: 330px;}
     .contents>p{font-size: 10px;}
     .contents h2{font-size: 14px;}
+    .box {width: 310px; height: 740px;}
+    .box p {width: 210px; font-size: 13px; margin: 0px 50px 50px 50px;}
+    .box p span.title {font-size: 16px;}
+    .swiper-wrapper {height: 360px !important;}
+    .swiper-pagination-bullet {width: 8px !important; height: 8px !important;}
+    .swiper-container-horizontal>.swiper-pagination-bullets{bottom: 20px !important;}
+    .box .save {top: 320px; width: 18px; height: 18px;}
 
     footer {height: 115px; margin-top: 40px;}
     footer .fo_mar{width: 346px; height: 53px; padding-top: 40px;}
@@ -398,6 +405,13 @@ footer .fo_mar p{color: #707070; font-size: 16px; width: 267px; height: 23px; ma
     .contents{width: 280px;}
     .contents>p{font-size: 10px;}
     .contents h2{font-size: 14px;}
+    .box {width: 260px; height: 610px;}
+    .box p {width: 160px; font-size: 11px; margin: 0px 50px 50px 50px;}
+    .box p span.title {font-size: 13px;}
+    .swiper-wrapper {height: 280px !important;}
+    .swiper-pagination-bullet {width: 5px !important; height: 5px !important;}
+    .swiper-container-horizontal>.swiper-pagination-bullets{bottom: 20px !important;}
+    .box .save {top: 245px; width: 15px; height: 15px;}
 
     footer {height: 115px; margin-top: 40px;}
     footer .fo_mar{width: 259px; height: 77px; padding-top: 16px;}
@@ -421,6 +435,13 @@ footer .fo_mar p{color: #707070; font-size: 16px; width: 267px; height: 23px; ma
     .contents{width: 270px;}
     .contents>p{font-size: 10px;}
     .contents h2{font-size: 14px;}
+    .box {width: 250px; height: 540px;}
+    .box p {width: 160px; font-size: 10px; margin: 0px 50px 50px 50px; height: 240px;}
+    .box p span.title {font-size: 12px;}
+    .swiper-wrapper {height: 270px !important;}
+    .swiper-pagination-bullet {width: 5px !important; height: 5px !important;}
+    .swiper-container-horizontal>.swiper-pagination-bullets{bottom: 20px !important;}
+    .box .save {top: 235px; width: 15px; height: 15px;}
 
 
     footer {height: 115px; margin-top: 40px;}
