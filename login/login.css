@@ -144,12 +144,11 @@ header nav .gnb>li>a{
   .loginMid{
       height: 30px;
       font-size: 18px;
-       color: #707070;
-       position: relative;
+      color: #707070;
+      width: 515px;
+      margin: 0 auto;
   }
   .loginMid .check{
-      position: absolute;
-      left: 296px;
       float: left;
   }
   .loginMid .autoLogin{
@@ -157,8 +156,6 @@ header nav .gnb>li>a{
   }
   .loginMid .ji_fi{
       float: right;
-      position: absolute;
-      right: 295px;
   }
   .loginMid .ji_fi .join{
       margin-right: 20px;
@@ -172,42 +169,42 @@ header nav .gnb>li>a{
       font-size: 20px;
   }
   .otherlogin{
-      margin-top: 15px;
-      position: relative;
       display: block;
-      height: 122px;
+      height: 105px;
+      margin: 25px auto 0;
   }
+  .otherlogin .login_nae {
+    width: 680px;
+    margin: 0 auto;
+    height: 30px;
+}
   .line{
       width: 182px;
       border-top: 2px solid #B6B6B6;
-      float: left;
-      position: absolute;
-      left: 290px;
       margin-top: 14px;
+      float: left;
   }
   .ri{
       width: 182px;
-      position: absolute;
-      border-top: 2px solid #B6B6B6;
       float: right;
-      right: 293px;
+      border-top: 2px solid #B6B6B6;
       margin-top: 14px;
   }
   .otherlogin h3{
-      position: absolute;
       color: #B6B6B6;
-      left: 496px;
+      float: left;
       font-size: 18px;
+      margin: 0 22px;
   }
   .otherlogin .login{
-      position: relative;
-      top: 72px;
-      left: 269px;
+    width: 730px;
+    margin: 25px auto 0;
+    height: 51px;
   }
   .otherlogin .login button{
       float: left;
       border: none;
-      font-size: 18px;
+      font-size: 16px;
       line-height: 50px;
       color: #fff;
   }
