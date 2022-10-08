@@ -207,6 +207,7 @@ header nav .gnb>li>a{
       font-size: 16px;
       line-height: 50px;
       color: #fff;
+      height: 50px;
   }
   .otherlogin .login img{
       width: 30px;
@@ -219,18 +220,15 @@ header nav .gnb>li>a{
   .kakao{
       background-color: #F9E000;
       width: 220px;
-      height: 50px;
       margin-right: 20px;
   }
   .naver{
       width: 210px;
-      height: 50px;
       background-color: #2DB400;
       margin-right: 20px;
   }
   .facebook{
       width: 260px;
-      height: 50px;
       background-color: #3B5998;
   }
 
@@ -271,6 +269,15 @@ footer .fo_mar p{color: #707070; font-size: 16px; width: 267px; height: 23px; ma
     header nav .gnb>li>a{height: 56.984px;}
 
     .contents{width: 700px;}
+    .title {font-size: 35px;}
+    .input-container input {width: 500px;}
+    .loginMid {font-size: 16px; width: 465px;}
+    .otherlogin .login button {font-size: 14px; height: 45px; line-height: 45px;}
+    .otherlogin .login img {width: 25px; height: 25px; padding-right: 0px;}
+    .kakao {width: 180px;}
+    .naver {width: 190px;}
+    .facebook {width: 215px;}
+    .otherlogin .login {width: 625px; height: 45px;}
     
     footer {height: 130px;}
     footer .fo_mar{width: 583px; height: 53px; padding-top: 45px;}
