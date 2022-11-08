@@ -178,14 +178,13 @@ header nav .gnb>li>a{
     margin: 0 auto;
     height: 30px;
 }
+.line, .ri{width: calc((100% - 315px)/2);}
   .line{
-      width: 182px;
       border-top: 2px solid #B6B6B6;
       margin-top: 14px;
       float: left;
   }
   .ri{
-      width: 182px;
       float: right;
       border-top: 2px solid #B6B6B6;
       margin-top: 14px;
