@@ -86,7 +86,7 @@ header nav .gnb>li>a{
     height: 100%;
     display: block;
 }
-.contents{
+.contents {
     width: 1260px;
     margin: 0 auto;
 }
@@ -101,13 +101,10 @@ header nav .gnb>li>a{
       font-size: 40px;
   }
   .Join_nae{
-      position: relative;
-     top: 90px;
-     left: 255px;
+    margin: 50px auto 0;
      width: 750px;
   }
   .Join_nae>div{
-      width: 750px;
       height: 149px;
       margin-bottom: 30px;
       position: relative;
@@ -184,25 +181,21 @@ header nav .gnb>li>a{
       margin-top: 150px;
 }
 .re_line{
-      width: 960px;
-      border: 1px solid #6167B2;
-      position: absolute;
-      top: 13px;
+      width: 100%;
+      border-top: 2px solid #6167B2;
 }
 .recommend h3{
-    position: absolute;
-    left: 234px;
+    margin: 0 auto;
     width: 493px;
     height: 29px;
-    top: 0;
     text-align: center;
     background: #fff;
+    margin-top: -13px;
 }
 .recommend_nae{
     position: relative;
     float: left;
     margin-top: 60px;
-    width: 960px;
 }
 .recommend_nae h4{
     float: left;
@@ -350,6 +343,7 @@ footer .fo_mar p{color: #707070; font-size: 16px; width: 267px; height: 23px; ma
 }
 @media (min-width:980px) and (max-width:1179.9px){
     .contents{width: 980px;}
+    .recommend{width: 900px;}
 
     footer {height: 130px;}
     footer .fo_mar{width: 583px; height: 53px; padding-top: 45px;}
@@ -368,6 +362,9 @@ footer .fo_mar p{color: #707070; font-size: 16px; width: 267px; height: 23px; ma
     header nav .gnb>li>a{height: 56.984px;}
 
     .contents{width: 700px;}
+    .Join_nae{width: 650px;}
+    .Join_nae>div>input {width: 435px;}
+    .recommend{width: 680px;}
     
     footer {height: 130px;}
     footer .fo_mar{width: 583px; height: 53px; padding-top: 45px;}
@@ -388,6 +385,17 @@ footer .fo_mar p{color: #707070; font-size: 16px; width: 267px; height: 23px; ma
     header nav .gnb>li>a{height: 46.984px;}
 
     .contents{width: 622px;}
+    .title {font-size: 35px;}
+    .Join_nae{width: 600px;}
+    .Join_nae>div>label {font-size: 22px;}
+    .Join_nae>.id>label p {left: 65px;}
+    .Join_nae>div>input {width: 390px; font-size: 16px;}
+    .Join_nae>div>button{font-size: 17px; width: 105px;}
+    .recommend{width: 622px; margin-top: 90px;}
+    .select-box {width: 175px;}
+    .select-box .mbti-select{font-size: 20px;}
+    .box-group.solid label {padding: 8px 20px;}
+    .box-group label {font-size: 20px;}
 
     footer {height: 130px; margin-top: 110px;}
     footer .fo_mar{width: 583px; height: 53px; padding-top: 45px;}
