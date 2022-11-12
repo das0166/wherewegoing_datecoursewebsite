@@ -173,6 +173,7 @@ header nav .gnb>li>a{
       font-size: 18px;
       float: left;
 }
+.Join_nae>div p.margin_p{margin-left: -9px;}
 .recommend {
       position: relative;
       width: 960px;
@@ -416,6 +417,19 @@ footer .fo_mar p{color: #707070; font-size: 16px; width: 267px; height: 23px; ma
     header nav .gnb>li>a{height: 46.984px;}
 
     .contents{width: 580px;}
+    .title {font-size: 32px;}
+    .Join_nae{width: 560px;}
+    .Join_nae>div {height: 150px; margin-bottom: 20px;}
+    .Join_nae>div>label {font-size: 20px;}
+    .Join_nae>div ul li{font-size: 14px;}
+    .Join_nae>.id>label p {left: 65px;}
+    .Join_nae>div>input {width: 390px; font-size: 14px; height: 19px;}
+    .Join_nae>div>button{font-size: 14px; width: 100px; height: 36px; top: 52px;}
+    .recommend{width: 580px; margin-top: 90px;}
+    .select-box {width: 175px;}
+    .select-box .mbti-select{font-size: 20px;}
+    .box-group.solid label {padding: 8px 20px;}
+    .box-group label {font-size: 20px;}
 
     footer {height: 130px; margin-top: 110px;}
     footer .fo_mar{width: 444px; height: 53px; padding-top: 45px;}
