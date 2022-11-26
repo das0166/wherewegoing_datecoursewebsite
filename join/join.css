@@ -630,8 +630,33 @@ footer .fo_mar p{color: #707070; font-size: 16px; width: 267px; height: 23px; ma
     header nav .gnb>li>a{height: 46.984px;}
 
     .contents{width: 330px;}
-    .contents>p{font-size: 10px;}
-    .contents h2{font-size: 14px;}
+    .title {font-size: 25px;}
+    .Join{padding-top: 90px;}
+    .Join_nae{width: 300px;}
+    .Join_nae>div {height: 100px; margin-bottom: 20px;}
+    .Join_nae>div p{font-size: 12px;}
+    .Join_nae>div>label {font-size: 15px;}
+    .Join_nae>div ul li{font-size: 10px;}
+    .Join_nae>.id>label p {left: 45px;}
+    .Join_nae>.password>label p {left: 57px;}
+    .Join_nae>.password_check>label p {left: 90px;}
+    .Join_nae>.nickname>label p, .Join_nae>.email>label p, .Join_nae>.phone>label p {left: 45px;}
+    .Join_nae>div>input {width: 185px; font-size: 10px; height: 8px; top: 30px; padding: 10px 10px;}
+    .Join_nae>div>button{font-size: 11px; width: 80px; height: 30px; top: 30px;}
+    .Join_nae>div>ul {top: 70px;}
+    .recommend{width: 330px; margin-top: 40px; height: 415px;} 
+    .recommend h3 {width: 287px; height: 18px; font-size: 11px; margin-top: -10px;}
+    .recommend_nae{margin-top: 30px;}
+    .recommend_nae h4 {font-size: 14px;}
+    .recommend_nae h4 p {font-size: 10px; bottom: 2px; left: 38px;}
+    .recommend_nae h4.date_select>p {left: 100px;}
+    .select-box {width: 100px; height: 35px; margin-top: 35px;}
+    .select-box .mbti-select{font-size: 14px;}
+    .liking {margin-top: 55px;}
+    .box-group {margin: 20px 5px;}
+    .box-group.solid label {padding: 8px 20px;}
+    .box-group label {font-size: 14px;}
+    .join_bt {width: 110px; height: 40px; font-size: 13px; margin: 50px 0 35px 40%;}
 
     footer {height: 115px; margin-top: 40px;}
     footer .fo_mar{width: 346px; height: 53px; padding-top: 40px;}
