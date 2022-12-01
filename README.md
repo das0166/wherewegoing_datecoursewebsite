@@ -19,6 +19,9 @@
 - 회원가입 페이지에서는 MBTI, 평소 데이트 코스 취향을 선택할 수 있게 하여 이를 바탕으로 사용자가 좋아할만한 데이트 코스를 추천해줌
 - 메뉴, 버튼 등에 호버했을 경우 위치를 나타낼 수 있게 색 차이를 두었음
 
-## 메인화면 캡쳐 이미지
+## 메인화면 이미지
+- PC
 <img src="https://user-images.githubusercontent.com/79895994/153636223-154f4784-a016-463d-bf32-846ec08fa58a.jpg" />
+- Mobile
+<img src="https://github.com/das0166/wherewegoing_datecoursewebsite/issues/5#issue-1471422216" />
 
