@@ -21,7 +21,7 @@
 
 ## 메인화면 이미지
 - PC
-<img src="https://user-images.githubusercontent.com/79895994/153636223-154f4784-a016-463d-bf32-846ec08fa58a.jpg" />
+<img src="https://user-images.githubusercontent.com/79895994/205079327-26e86a90-7dc9-4cad-9041-33f5d387deea.JPG" />
 - Mobile
-<img src="https://github.com/das0166/wherewegoing_datecoursewebsite/issues/5#issue-1471422216" />
+<img src="https://user-images.githubusercontent.com/79895994/205079401-09ae4005-92e6-4315-ab3c-ec2382345051.JPG" />
 
