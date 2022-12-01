@@ -7,9 +7,7 @@
 ##### 데이트 코스 추천 웹사이트 '어디갈까?'
 ----
 ## **사용기술**
-<img src="https://img.shields.io/badge/html-e34f26?style=for-the-badge&logo=html5&logoColor=white">
-<img src="https://img.shields.io/badge/css-1572b6?style=for-the-badge&logo=css3&logoColor=white">
-<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/html-e34f26?style=for-the-badge&logo=html5&logoColor=white"><img src="https://img.shields.io/badge/css-1572b6?style=for-the-badge&logo=css3&logoColor=white"><img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 
 -----
 ## 주요기능
